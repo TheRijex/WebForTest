@@ -6,6 +6,10 @@
     max-width: 1420px;
     margin: 0 auto;
 }
-@import 'blocks/promo.scss';
-@import 'blocks/header.scss';
-
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/info';
+@import 'blocks/button';
+@import 'blocks/steps';
+@import 'blocks/resp';
+@import 'blocks/scroll';

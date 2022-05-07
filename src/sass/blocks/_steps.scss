@@ -1,0 +1,38 @@
+.steps{
+    position: relative;
+    ul{
+        font-family: 'Proxima Nova';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+        margin-top: 235px;
+        list-style: none;
+        li{
+            display: inline;
+            width: 180px;
+        }
+        .item1{
+            span{
+                width: 180px;
+            }
+            &::before{
+                margin: 5px;
+                content: url(../icons/01.svg);
+        }
+            
+        }
+        .item2::before{
+            content: url(../icons/02.svg);
+        }
+        .item3::before{
+            content: url(../icons/03.svg);
+        }
+    }
+    .video{
+        position: absolute;
+        right: 0px;
+        bottom: 68px;
+    }
+}

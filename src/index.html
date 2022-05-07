@@ -7,26 +7,95 @@
     <title>Инженерная Диагностика</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">  
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
-            <header class="header">
-                <button class="header__menu"></button>
-                <a href="#" class="header__logo"> 
+            <header class="header row">
+                <a class="header__menu col-1" >
+                    <img src="icons/burger.png" alt="menu">
+                </a>
+                <a href="#" class="header__logo col-2" > 
                     <img src="img/navLogo.png" alt="mainLogo" >
                 </a>
-                <div class="header__mailInfo">
+                <div class="header__mailInfo col-2 offset-5">
                     <span>Пишите нам на email</span>
                     <a href = "mailto:info@diagnistics.by">info@diagnistics.by</a>
                 </div>
-                <div class="header__contacts">
+                <div class="header__contacts col-2">
                     <span>Есть вопросы? Звоните!</span>
                     <a href="tel:+375294564545" class="header__phone">+375 (29) 456-45-45</a>
                 </div>
             </header>
+            <div class="info row">
+               <div class="info__descr col-5 offset-1">
+                   <h1>
+                       Независимое обследование зданий и сооружений
+                    </h1>
+                   <h3>
+                    антенн, труб, теплосетей, канализаций и других объектов строительства
+                   </h3>
+               </div>
+               <div class="info__sendF col-3 offset-2">
+                    <button class="button">получить коммерческое</button>
+                    <p>
+                        Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер
+                    </p>
+               </div>
+            </div>
+            <div class="steps row">
+                <ul class="steps__list col-9">
+                    <li class="item1">
+                        <span>
+                            Начинаем работать без аванса
+                        </span> 
+                    </li>
+                    <li class="item2">
+                        <span>
+                        Предоставляем отсрочку платежа
+                        </span>
+                    </li>
+                    <li class="item3">
+                        <span>
+                            Всегда называем справедливую цену
+                        </span>
+                    </li> 
+                </ul>
+                <a href="#" class="video">
+                    <img src="img/video.png" alt="Video">
+                </a>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="resp container">
+        <div class="row">
+            <div class="resp__descr col-4">
+                <h2>
+                    Мы работаем быстро и наши отчеты проходят согласование с первого раза
+                </h2>
+                <h3>
+                    Над вашим объектом работает целая команда: 3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ
+                </h3>
+            </div>
+            <div class="resp__img col-4">
+                <img src="./img/tv.png" alt="#" >
+            </div>
+            <div class="resp__list col-4 ">
+                <h2>
+                    Вы и Ваши архитекторы получаете:
+                </h2>
+                <ul>
+                    <li class="item">Отчет на который на 100% можно положиться</li>
+                    <li class="item">Экономию времени и прогнозируемость сроков</li>
+                    <li class="item">Предварительные результаты сразу на месте</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="scroll">
+
+    </section>
 </body>
 </html>
