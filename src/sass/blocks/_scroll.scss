@@ -1,4 +1,10 @@
 .scroll{
+    .container{
+      width: 1420px;
+    }
     height: 753px;
     background: url(../../img/scrollBG.png) center (center/cover) no-repeat;
+    &__prev{
+        margin-top: 100px;
+    }
 }
